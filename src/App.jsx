@@ -7,9 +7,9 @@ const telegram =window.Telegram.Webapp
 import "./style/main.css";
 export const App = () => {
   const [cartItems, setCartItems] = useState([]);
-// useEffect(()=>{
-//   telegram.ready()
-// })
+useEffect(()=>{
+  telegram.ready()
+})
 
   const onAddItem = (item) => {
     const existItem = cartItems.find((c) => c.id == item.id);
