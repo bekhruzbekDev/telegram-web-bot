@@ -1,0 +1,22 @@
+:root{
+    --primary-clr:#e0c521
+}
+.btn{
+    padding: 1rem 0.8rem;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+.btn.add{
+    background-color: var(--primary-clr);
+}
+.btn.remove{
+    background-color: tomato;
+}
+.btn.checkout{
+    background-color: rgba(0, 128, 0, 0.445);
+    color: #fff;
+}

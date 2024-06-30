@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(56, 53, 53);
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
